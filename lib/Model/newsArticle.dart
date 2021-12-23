@@ -1,4 +1,6 @@
-class NewsArticle{
+import 'package:flutter/material.dart';
+
+class NewsArticle {
   final String title;
   final String description;
   final String urlToImage;
@@ -14,4 +16,5 @@ class NewsArticle{
       url: json["url"]
     );
   }
+
 }

@@ -1,6 +1,6 @@
 
 import 'dart:convert';
-
+import 'package:dio/dio.dart'as dio;
 import 'package:http/http.dart'as http;
 import 'package:mvvm_buildrealproject/Model/newsArticle.dart';
 import 'package:mvvm_buildrealproject/Services/Constants.dart';
